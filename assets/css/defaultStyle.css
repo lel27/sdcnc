@@ -4,3 +4,14 @@ body {
     text-decoration-color: white;
     background-color: black;
 }
+
+
+.tm-title {
+    color: white;
+    text-align: center;
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
