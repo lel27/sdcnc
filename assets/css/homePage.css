@@ -30,9 +30,68 @@ body {
 .skills ul li {
     padding-bottom: 6px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .skills h2 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra)
+}
+
+/*Projects */
+.projects {
+    background: black;
+    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
+    color: white;
+}
+
+.projects h2 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra)
+}
+
+.projects ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects button {
+    background-color: purple;
+    border-radius: 30%;
+    border-color: white;
+}
+
+.projects button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*contact */
+.contact {
+    background: black;
+    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
+    color: white;
+}
+
+.contact h2 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra)
+}
+
+.contact p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*githib */
+.github {
+    background: black;
+    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
+    color: white;
+}
+
+.github h2 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra)
+}
+
+.github p {
+    font-family: Arial, Helvetica, sans-serif;
 }
