@@ -17,16 +17,22 @@ body {
 
 /*skills section */
 .skills {
-    background:black;
-   box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
-   color: white;
-   
-  }
-  .skills ul {
+    background: black;
+    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
+    color: white;
+}
+
+.skills ul {
     color: white;
     padding: 10px;
-  }
-  .skills ul li {
+}
+
+.skills ul li {
     padding-bottom: 6px;
     color: white;
-  }
+}
+
+.skills h2 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra)
+}

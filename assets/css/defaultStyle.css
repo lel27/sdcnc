@@ -15,3 +15,8 @@ body {
     color: white;
     text-align: center;
 }
+
+.row {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra)
+}
