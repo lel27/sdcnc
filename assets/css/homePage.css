@@ -1,7 +1,3 @@
-body {
-    background-color: black;
-}
-
 .avatar {
     border-radius: 50%;
     border-width: 3px;
@@ -56,7 +52,7 @@ body {
 }
 
 .projects button {
-    background-color: purple;
+    background-color: orange;
     border-radius: 30%;
     border-color: white;
 }
@@ -72,7 +68,6 @@ body {
     color: white;
     text-align: center;
 }
-
 .contact h2 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra)
@@ -81,6 +76,22 @@ body {
 .contact p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*email */
+.email {
+    background: black;
+    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
+    color: white;
+    text-align: center;
+}
+.email h2 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra)
+}
+.email p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /*githib */
 .github {
@@ -106,10 +117,12 @@ body {
     color: white;
     text-align: left;
 }
+
 .education h2 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
+
 .education ul {
     color: white;
     padding: 10px;
@@ -128,10 +141,12 @@ body {
     color: white;
     text-align: right;
 }
+
 .softSkills h2 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
+
 .softSkills ul {
     color: white;
     padding: 10px;
