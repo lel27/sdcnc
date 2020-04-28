@@ -6,15 +6,30 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    widows: 200px;
-    height: 200px;
+    widows: 150px;
+    height: 150px;
 
+}
+
+/*navbar logo */
+.navlogo {
+    height: 40px;
+    width: 43px;
 }
 
 /*logo */
 .logo {
-    height: 40px;
-    width: 43px;
+    width: 200px;
+    height: 200px;
+}
+
+/*header */
+.header {
+    text-align: center;
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra);
+    color: white;
+    margin: 10px;
 }
 
 /*skills section */
@@ -22,17 +37,20 @@
     background: black;
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
     color: white;
+    margin: 15px;
 }
 
 .skills ul {
     color: white;
     padding: 10px;
+    margin: 3px;
 }
 
 .skills ul li {
     padding-bottom: 6px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
 }
 
 .skills h2 {
@@ -46,6 +64,7 @@
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
     color: white;
     text-align: right;
+    margin: 15px;
 }
 
 .projects h2 {
@@ -73,7 +92,9 @@
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
     color: white;
     text-align: center;
+    margin: 15px;
 }
+
 .contact h2 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra)
@@ -90,10 +111,12 @@
     color: white;
     text-align: center;
 }
+
 .email h2 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
+
 .email p {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -122,6 +145,7 @@
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
     color: white;
     text-align: left;
+    margin: 15px;
 }
 
 .education h2 {
@@ -138,6 +162,7 @@
     padding-bottom: 6px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
 }
 
 /*softSkills */
@@ -146,6 +171,7 @@
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
     color: white;
     text-align: right;
+    margin: 15px;
 }
 
 .softSkills h2 {
@@ -153,13 +179,11 @@
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
-.softSkills ul {
-    color: white;
-    padding: 10px;
-}
+
 
 .softSkills p {
     padding-bottom: 6px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 4px;
 }
