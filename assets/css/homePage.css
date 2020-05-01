@@ -11,9 +11,9 @@
 
 /*logo */
 .logo {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
+    width: 25px;
+    height: 25px;
+    margin: 25px;
 
 }
 
@@ -49,6 +49,7 @@
 
 .skills h2 {
     font-family: Potra;
+    color: 9ce6f5;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
@@ -78,6 +79,11 @@
 }
 
 /*contact */
+.contactimg {
+    width: 30px;
+    height: auto;
+}
+
 .contact {
     background: black;
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
@@ -88,6 +94,7 @@
 
 .contact h2 {
     font-family: Potra;
+    color: 9ce6f5;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
@@ -96,6 +103,11 @@
 }
 
 /*email */
+.emailimg {
+    width: 45px;
+    height: auto;
+}
+
 .email {
     background: black;
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
@@ -105,6 +117,7 @@
 
 .email h2 {
     font-family: Potra;
+    color: 9ce6f5;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
@@ -114,6 +127,11 @@
 
 
 /*github */
+.githubimg {
+    width: 50px;
+    height: auto;
+}
+
 .github {
     background: black;
     box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
@@ -123,6 +141,7 @@
 
 .github h2 {
     font-family: Potra;
+    color: 9ce6f5;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
@@ -141,6 +160,7 @@
 
 .education h2 {
     font-family: Potra;
+    color: 9ce6f5;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
@@ -167,6 +187,7 @@
 
 .softSkills h2 {
     font-family: Potra;
+    color: 9ce6f5;
     src: url(https://www.dafont.com/search.php?q=potra)
 }
 
