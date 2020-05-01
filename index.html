@@ -12,12 +12,14 @@
     <link rel="shortcut icon" href="assets/images/logo.png" />
 </head>
 
+
+<style>
+    body {
+        background-color: black;
+    }
+</style>
+
 <body>
-    <style>
-        body {
-            background-color: black;
-        }
-    </style>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark customNavBg">
         <a class="navbar-brand" href="index.html">
@@ -83,78 +85,80 @@
     <br>
     <br>
     <br>
-    <div class="container-fluid">
-        <div class="row content">
-            <div class="col-sm-3 sidenav">
-                <section class="contact">
-                    <img src="assets/images/phonelogo.png" class="contactimg"> 
-                    <h2>Contact</h2>
-                    <hr>
-                </section>
-                <section class="email">
-                    <img src="assets/images/emaillogo.png" class="emailimg">
-                    <h2>Email</h2>
-                    <hr>
-                </section>
-                <section class="github">
-                    <img src="assets/images/githublogo.png" class="githubimg">
-                    <h2>Github</h2>
-                    <hr>
-                </section>
-            </div>
-
-            <div class="col-sm-9">
+    <section>
+        <div id="sidebar">
+            <section class="contact">
+                <img src="assets/images/phonelogo.png" class="contactimg">
+                <h2>Contact</h2>
+                <hr>
+            </section>
+            <section class="email">
+                <img src="assets/images/emaillogo.png" class="emailimg">
+                <h2>Email</h2>
+                <hr>
+            </section>
+            <section class="github">
+                <img src="assets/images/githublogo.png" class="githubimg">
+                <h2>Github</h2>
+                <hr>
+            </section>
+        </div>
+        <div id="largeContent">
+            <div class="col-sm-7">
                 <section class="skills">
                     <h2>Design Skills</h2>
                     <hr>
                 </section>
             </div>
         </div>
-    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <!----Tool Tip & Scroll Spy---->
+        <div class="row customToolTip">
+            <div class="col-12">
+                <a class="btn toTop" data-toggle="tooltip" data-placement="right" title="Scroll to Top" title
+                    href="#topPage" data-original-title="Scroll to Top">
+                    <span>
+                        <i class="fas fa-chevron-circle-up"></i>
 
-    <!----Tool Tip & Scroll Spy---->
-    <div class="row customToolTip">
-        <div class="col-12">
-            <a class="btn toTop" data-toggle="tooltip" data-placement="right" title="Scroll to Top" href="#topPage"
-                data-original-title="Scroll to Top">
-                <span>
-                    <i class="fas fa-chevron-circle-up"></i>
-
-                </span>
-            </a>
+                    </span>
+                </a>
+            </div>
         </div>
-    </div>
 
-    <!-- boostrap script -->
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        <!-- boostrap script -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 
-    <script>
-        $(document).ready(function () {
-                    $('[data-toggle="tooltip"]').tooltip();
+        <script>
+            $(document).ready(function () {
+                        $('[data-toggle="tooltip"]').tooltip();
 
-                    $("a.toTop").on('click', function (event) {
+                        $("a.toTop").on('click', function (event) {
 
-                                $("a.toTop").on('click', function (event) {
-                                    if (this.hash !== "") {
-                                        event.preventDefault();
-                                        var hash = this.hash;
-                                        $('html, body').animate({
-                                            scrollTop: $(hash).offset().top
-                                        }, 800, function () {
-                                            window.location.hash = hash;
-                                        });
-                                    }
-                                });
-    </script>
+                                    $("a.toTop").on('click', function (event) {
+                                        if (this.hash !== "") {
+                                            event.preventDefault();
+                                            var hash = this.hash;
+                                            $('html, body').animate({
+                                                scrollTop: $(hash).offset().top
+                                            }, 800, function () {
+                                                window.location.hash = hash;
+                                            });
+                                        }
+                                    });
+        </script>
 </body>
 
 </html>
