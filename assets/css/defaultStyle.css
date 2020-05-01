@@ -4,6 +4,21 @@ body {
     background-color: black;
 }
 
+/* tool tip */
+.customToolTip>div {
+    display: flex;
+    justify-content: center;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up {
+    color: orange;
+    font-size: 25px;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
+    color: #34af95;
+}
+
 
 .tm-title {
     color: white;
@@ -17,5 +32,12 @@ body {
 
 .title h1 {
     font-family: Potra;
-    src: url(https://www.dafont.com/search.php?q=potra)
+    src: url(https://www.dafont.com/search.php?q=potra)>
 }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }

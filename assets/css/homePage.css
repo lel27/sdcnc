@@ -1,14 +1,6 @@
 .avatar {
-    border-radius: 50%;
-    border-width: 3px;
-    border-style: solid;
-    border-color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    widows: 150px;
-    height: 150px;
-
+    width: 170px;
+    height: auto;
 }
 
 /*navbar logo */
@@ -19,18 +11,19 @@
 
 /*logo */
 .logo {
-    width: 50px;
-    height: 50px;
-    
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+
 }
 
 /*header */
 .header {
-    text-align: center;
+    text-align: left;
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra);
     color: white;
-    margin: 10px;
+    margin: 45px;
 }
 
 /*skills section */
@@ -81,9 +74,6 @@
     background-color: orange;
     border-radius: 30%;
     border-color: white;
-}
-
-.projects button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
