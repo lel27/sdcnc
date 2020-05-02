@@ -1,4 +1,3 @@
-
 /*body */
 .body {
     padding: 15px;
@@ -15,8 +14,13 @@
 
 /*logo */
 .logo {
-  height: 25px;
-  width: 50%;
+    height: 25px;
+    width: 50%;
+}
+
+/*avatar */
+.avatar {
+    margin-left: 35px;
 }
 
 
@@ -41,15 +45,17 @@
     font-style: italic;
 }
 
-/*connections */
-.connections {
-
+/*--------------MIDDLE------------------*/
+.middleSec {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-
+/*--------------LEFT SIDE-----------*/
 /* contact */
 .contact {
     grid-area: 3 / 1 / 9 / 3;
+    /*transform: rotate(-90deg); */
 }
 
 .contact h1 {
@@ -57,18 +63,20 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     color: #9ce6f5;
     font-size: x-large;
-    transform: rotate(-90deg);
+    margin-left: 35px;
+    /*transform: rotate(-90deg); */
 }
 
 .contact p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    transform: rotate(-90deg);
     text-align: right;
+    /*transform: rotate(-90deg); */
 }
 
 /*email */
 .email {
+    /*transform: rotate(-90deg); */
 
 }
 
@@ -77,17 +85,20 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     color: #9ce6f5;
     font-size: x-large;
-    transform: rotate(-90deg);
+    margin-left: 35px;
+    /*transform: rotate(-90deg); */
 }
 
 .email p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    transform: rotate(-90deg);
     text-align: right;
+    /*transform: rotate(-90deg); */
 }
+
 /*github */
 .github {
+    /*transform: rotate(-90deg); */
 
 }
 
@@ -96,19 +107,23 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     color: #9ce6f5;
     font-size: x-large;
-    transform: rotate(-90deg);
+    margin-left: 35px;
+    /*transform: rotate(-90deg); */
 }
 
-.github p{
+.github p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    transform: rotate(-90deg);
     text-align: right;
+    /*transform: rotate(-90deg); */
 }
 
+
+/*---------------RIGHT SIDE---------------*/
 /* design skills */
 .skills {
     grid-area: 3 / 3 / 5 / 6;
+    /*transform: rotate(-90deg); */
 }
 
 .skills h1 {
@@ -116,12 +131,18 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    transform: rotate(-90deg);
+    /*transform: rotate(-90deg); */
+}
+
+.adobeSkills {
+    width: 300px;
+    height: auto;
 }
 
 /*education */
 .education {
     grid-area: 5 / 3 / 7 / 6;
+    /*transform: rotate(-90deg); */
 }
 
 .education h1 {
@@ -129,12 +150,13 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    transform: rotate(-90deg);
+    /*transform: rotate(-90deg); */
 }
 
 /*soft skills */
 .softSkills {
     grid-area: 7 / 3 / 9 / 6;
+    /*transform: rotate(-90deg); */
 }
 
 .softSkills h1 {
@@ -142,7 +164,7 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    transform: rotate(-90deg);
+    /*transform: rotate(-90deg); */
 }
 
 /*footer */
