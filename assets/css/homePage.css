@@ -1,222 +1,75 @@
-#sidebar {
-    background:black;
-    height: 300px;
-    padding: 20px;
-    width: 20%;
-    float: left;
+.nonProfitContainer {
+    margin: 50px 0
 }
 
-#largeContent {
-    width: 80%;
-    height: 300px;
-    background-color: black;
-    width: 80%;
-    float: left;
-    color: white;
-    padding: 20px;
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px
 }
 
-
-.avatar {
-    width: 170px;
-    height: auto;
-}
-
-/*navbar logo */
-.navlogo {
-    height: 40px;
-    width: 43px;
-}
-
-/*logo */
 .logo {
-    width: 25px;
-    height: 25px;
-    margin: 25px;
-
+    width: 15%;
+    height: auto
 }
 
-/*header */
-.header {
-    text-align: left;
-    font-family: Potra;
-    src: url(https://www.dafont.com/search.php?q=potra);
-    color: white;
-    margin: 45px;
+div#nonProfitNav>ul.navbar-nav {
+    margin: 0 auto;
 }
 
-/*skills section */
-.skills {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    margin: 15px;
+.nonProfitNav li.nav-item a {
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: orangered;
 }
 
-.skills ul {
-    color: white;
-    padding: 10px;
-    margin: 3px;
+.nonProfitNav li.nav-item a:hover {
+    background-color: orangered;
+    color: white
 }
 
-.skills ul li {
-    padding-bottom: 6px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 2px;
-}
-
-.skills h2 {
-    font-family: Potra;
-    color: #9ce6f5;
-    src: url(https://www.dafont.com/search.php?q=potra);
-    transform: rotate(-90deg);
-}
-
-/*Projects */
-.projects {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    text-align: right;
-    margin: 15px;
-}
-
-.projects h2 {
-    font-family: Potra;
-    src: url(https://www.dafont.com/search.php?q=potra)
-}
-
-.projects ul li {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.projects button {
+.aboutDiv {
+    height: 400px;
     background-color: orange;
-    border-radius: 30%;
-    border-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0
 }
 
-/*contact */
-.contactimg {
-    width: 30px;
-    height: auto;
+.sitemapDiv {
+    height: 500px;
+    background-color: teal;
+    margin: 20px 0
 }
 
-.contact {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    text-align: center;
-    margin: 15px;
+.styleGuideDiv {
+    height: 500px;
+    background-color: purple;
+    margin: 20px 0
 }
 
-.contact h2 {
-    font-family: Potra;
-    color: #9ce6f5;
-    src: url(https://www.dafont.com/search.php?q=potra)
-}
-
-.contact p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*email */
-.emailimg {
-    width: 45px;
-    height: auto;
-}
-
-.email {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    text-align: center;
-}
-
-.email h2 {
-    font-family: Potra;
-    color: #9ce6f5;
-    src: url(https://www.dafont.com/search.php?q=potra)
-}
-
-.email p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/*github */
-.githubimg {
-    width: 50px;
-    height: auto;
-}
-
-.github {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    text-align: center;
-}
-
-.github h2 {
-    font-family: Potra;
-    color: #9ce6f5;
-    src: url(https://www.dafont.com/search.php?q=potra)
-}
-
-.github p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*education */
-.education {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    text-align: left;
-    margin: 15px;
-}
-
-.education h2 {
-    font-family: Potra;
-    color: #9ce6f5;
-    src: url(https://www.dafont.com/search.php?q=potra);
-    transform: rotate(-90deg);
-}
-
-.education ul {
-    color: white;
-    padding: 10px;
-}
-
-.education p {
-    padding-bottom: 6px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 2px;
-}
-
-/*softSkills */
-.softSkills {
-    background: black;
-    box-shadow: 0px 1px 5px white(50, 50, 50, 0.08);
-    color: white;
-    text-align: right;
-    margin: 15px;
-}
-
-.softSkills h2 {
-    font-family: Potra;
-    color: #9ce6f5;
-    src: url(https://www.dafont.com/search.php?q=potra)
+.resumeBtnContainer {
+    display: flex;
+    justify-content: center;
 }
 
 
 
-.softSkills p {
-    padding-bottom: 6px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 4px;
+
+
+/* === Media Queries ==== */
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 50%;
+        height: auto
+    }
+
+    .nonProfitNav {
+        margin: 0 auto;
+        justify-content: center !important;
+
+    }
+
+    .nonProfitNav li.nav-item {
+        text-align: center;
+    }
 }
