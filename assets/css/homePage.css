@@ -20,7 +20,7 @@
 
 /*avatar */
 .avatar {
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 
@@ -70,7 +70,7 @@
 .contact p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    text-align: right;
+    margin-left: 35px;
     /*transform: rotate(-90deg); */
 }
 
@@ -92,7 +92,7 @@
 .email p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    text-align: right;
+    margin-left: 35px;
     /*transform: rotate(-90deg); */
 }
 
@@ -114,7 +114,7 @@
 .github p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    text-align: right;
+    margin-left: 35px;
     /*transform: rotate(-90deg); */
 }
 
@@ -139,6 +139,12 @@
     height: auto;
 }
 
+.subText {
+color: white;
+margin-top: 15px;
+font-size: large;
+}
+
 /*education */
 .education {
     grid-area: 5 / 3 / 7 / 6;
@@ -153,6 +159,19 @@
     /*transform: rotate(-90deg); */
 }
 
+.education h5 {
+    color: #de672d;
+}
+
+.eduYears {
+    color: white;
+    font-style: italic;
+}
+
+.education p {
+    color: white;
+}
+
 /*soft skills */
 .softSkills {
     grid-area: 7 / 3 / 9 / 6;
@@ -165,6 +184,10 @@
     font-size: x-large;
     color: #9ce6f5;
     /*transform: rotate(-90deg); */
+}
+
+.softSkills ul {
+    color: white;
 }
 
 /*footer */
