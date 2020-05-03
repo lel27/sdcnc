@@ -96,6 +96,7 @@ footer {
 
     #button {
         margin-right: 175px;
+        margin-bottom: -30px;
     }
 
     /*header */
@@ -125,7 +126,7 @@ footer {
         transform: rotate(360deg);
         margin-left: 120px;
         margin-top: -30px;
-    }    
+    }
 
     .phoneLink p {
         color: white;
@@ -186,7 +187,7 @@ footer {
         src: url(https://www.dafont.com/search.php?q=potra);
         font-size: x-large;
         color: #9ce6f5;
-        transform: rotate(360deg); 
+        transform: rotate(360deg);
     }
 
     .adobeSkills {
@@ -200,7 +201,7 @@ footer {
         src: url(https://www.dafont.com/search.php?q=potra);
         font-size: x-large;
         color: #9ce6f5;
-        transform: rotate(360deg); 
+        transform: rotate(360deg);
         margin-top: -50px;
     }
 
@@ -223,7 +224,7 @@ footer {
     }
 
     .projectImg {
-       margin-left: -90px;
+        margin-left: -90px;
     }
 }
 
