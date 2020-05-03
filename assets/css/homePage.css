@@ -191,6 +191,7 @@
 /* design skills */
 .skills {
     grid-area: 3 / 3 / 5 / 6;
+    margin-top: 55px;
     /*transform: rotate(-90deg); */
 }
 
@@ -199,7 +200,8 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    /*transform: rotate(-90deg); */
+    transform: rotate(-90deg); 
+    margin-top: 80px;
 }
 
 .adobeSkills {
@@ -227,6 +229,7 @@
 /*education */
 .education {
     grid-area: 5 / 3 / 7 / 6;
+    margin-top: 50px;
     /*transform: rotate(-90deg); */
 }
 
@@ -235,7 +238,7 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    /*transform: rotate(-90deg); */
+    transform: rotate(-90deg); 
 }
 
 .education h5 {
@@ -254,6 +257,7 @@
 /*soft skills */
 .softSkills {
     grid-area: 7 / 3 / 9 / 6;
+    margin-top: 35px;
     /*transform: rotate(-90deg); */
 }
 
@@ -262,11 +266,14 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    /*transform: rotate(-90deg); */
+    transform: rotate(-90deg);
+    margin-top: 50px;
 }
 
 .softSkills ul {
     color: white;
+    font-size: 10pt;
+    margin-left: -30px;
 }
 
 /*Projects */
@@ -279,12 +286,15 @@
     src: url(https://www.dafont.com/search.php?q=potra);
     font-size: x-large;
     color: #9ce6f5;
-    /*transform: rotate(-90deg); */
+    transform: rotate(-90deg);
+    margin-top: 80px;
 }
 
 .projects ul {
     color: white;
-    margin-left: 12px;
+    margin-left: 95px;
+    margin-top: -50px;
+    font-size: 10pt;
 }
 
 

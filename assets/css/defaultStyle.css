@@ -5,17 +5,14 @@ body {
     display: block;
 }
 
-.vertical {
-    border-left: 3px solid white;
-    height: 1000px;
-    margin-right: 25px;
-    float: left;
+.rightSub {
+    margin-top: -200px;
 }
 
-.verticalLeft {
+.vertical {
     border-left: 3px solid white;
-    height: 100px;
-    margin-right: 5px;
+    height: 980px;
+    margin-right: 25px;
     float: left;
 }
 
