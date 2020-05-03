@@ -226,9 +226,7 @@ footer {
 /*grid */
 @media only screen and (max-width: 768px) {
     .rightSub {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 1em;
+        display: block;
     }
 
     .vertical {
@@ -238,17 +236,13 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .leftSub {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 1em;
+        display: block;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .header {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 1em;
+        display: block;
     }
 }
 
