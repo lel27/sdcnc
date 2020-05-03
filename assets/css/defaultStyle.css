@@ -104,7 +104,6 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        opacity: 100%;
     }
 
     .avatarlogo {
@@ -115,12 +114,13 @@ footer {
         font-family: Potra;
         src: url(https://www.dafont.com/search.php?q=potra);
         color: white;
-        margin-top: 15px;
+        margin-top: 120px;
         font-size: 45pt;
         text-align: center;
     }
 
     /*leftSub */
+    /*contact */
     .contactHeader h1 {
         transform: rotate(360deg);
         margin-top: -30px;
@@ -136,6 +136,11 @@ footer {
         color: #de672d
     }
 
+    .phoneLogo {
+        display: none;
+    }
+
+    /*email */
     .emailHeader h1 {
         transform: rotate(360deg);
         margin-top: -30px;
@@ -151,6 +156,11 @@ footer {
         color: #de672d
     }
 
+    .emailLogo {
+        display: none;
+    }
+
+    /*github */
     .githubHeader h1 {
         transform: rotate(360deg);
         margin-top: -30px;
@@ -164,6 +174,10 @@ footer {
 
     .githubLink:hover p {
         color: #de672d
+    }
+
+    .githubLogo {
+        display: none;
     }
 
     /*rightSub */
@@ -197,6 +211,15 @@ footer {
         color: #9ce6f5;
         transform: rotate(360deg);
         margin-top: -50px;
+    }
+
+    .projects h1 {
+        font-family: Potra;
+        src: url(https://www.dafont.com/search.php?q=potra);
+        font-size: x-large;
+        color: #9ce6f5;
+        transform: rotate(360deg);
+        margin-top: 0px;
     }
 }
 
