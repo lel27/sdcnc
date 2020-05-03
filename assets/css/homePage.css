@@ -36,6 +36,7 @@
     color: white;
     text-align: center;
     margin-top: 25px;
+    font-size: 45pt;
 }
 
 .header p {
@@ -43,14 +44,15 @@
     color: #de672d;
     text-align: center;
     font-style: italic;
-    margin-right: 180px;
-    font-size: large;
+    margin-right: 300px;
+    font-size: 16pt;
 }
 
 /*--------------MIDDLE------------------*/
 .middleSec {
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: -50px;
 }
 
 /*--------------LEFT SIDE-----------*/
@@ -58,6 +60,7 @@
 .contact {
     grid-area: 3 / 1 / 9 / 3;
     /*transform: rotate(-90deg); */
+    margin-right: 200px;
 }
 
 .contact h1 {
@@ -92,6 +95,7 @@
 
 /*email */
 .email {
+    margin-right: 200px;
     /*transform: rotate(-90deg); */
 
 }
@@ -121,6 +125,7 @@
 
 /*github */
 .github {
+    margin-right: 200px;
     /*transform: rotate(-90deg); */
 
 }
@@ -151,6 +156,10 @@
 }
 
 /*Projects */
+.projects {
+    margin-right: 200px;
+}
+
 .projects h1 {
     font-family: Potra;
     src: url(https://www.dafont.com/search.php?q=potra);
