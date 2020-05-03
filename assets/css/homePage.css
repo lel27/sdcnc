@@ -243,11 +243,23 @@
 
 .education h5 {
     color: #de672d;
+    font-size: 15pt;
 }
 
 .eduYears {
     color: white;
+
+}
+
+.eduYears p {
+    color: white;
     font-style: italic;
+}
+
+.eduPara p {
+    color: white;
+    font-style: normal;
+    font-size: 11pt;
 }
 
 .education p {
