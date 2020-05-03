@@ -273,4 +273,14 @@ footer {
 @font-face {
     font-family: potra;
     src: url(https://www.dafont.com/search.php?q=potra);
-}
+    /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url(https://www.dafont.com/search.php?q=potra) format('woff2'),
+        /* Super Modern Browsers */
+        url(https://www.dafont.com/search.php?q=potra) format('woff'),
+        /* Pretty Modern Browsers */
+        url(https://www.dafont.com/search.php?q=potra) format('truetype'),
+        /* Safari, Android, iOS */
+        url(https://www.dafont.com/search.php?q=potra) format('svg');
+    /* Legacy iOS */
