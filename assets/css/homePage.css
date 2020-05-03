@@ -54,7 +54,7 @@
 .middleSec {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: -50px;
+    margin-top: -40px;
 }
 
 /*--------------LEFT SIDE-----------*/
@@ -81,17 +81,26 @@
     /*transform: rotate(-90deg); */
 }
 
+.contactHeader h1 {
+    transform: rotate(-90deg);
+    margin-top: 110px;
+    margin-left: 120px;
+}
+
 .phoneLogo {
     height: 15px;
     width: auto;
+    margin-top: 35px;
 }
 
-.phoneLink {
+.phoneLink p {
     color: white;
     margin-left: 35px;
+    transform: rotate(-90deg);
+    margin-top: 25px;
 }
 
-.phoneLink:hover {
+.phoneLink:hover p {
     color: #de672d
 }
 
@@ -100,6 +109,12 @@
     margin-right: 200px;
     /*transform: rotate(-90deg); */
 
+}
+
+.emailHeader h1 {
+    transform: rotate(-90deg);
+    margin-top: 25px;
+    margin-right: -180px;
 }
 
 .email h1 {
@@ -111,18 +126,21 @@
     /*transform: rotate(-90deg); */
 }
 
-.emailLink {
+.emailLink p {
     color: white;
     margin-left: 35px;
+    transform: rotate(-90deg);
+    margin-top: 25px;
 }
 
-.emailLink:hover {
+.emailLink:hover p {
     color: #de672d
 }
 
 .emailLogo {
     width: 15px;
     height: auto;
+    margin-top: 55px;
 }
 
 /*github */
@@ -130,6 +148,12 @@
     margin-right: 200px;
     /*transform: rotate(-90deg); */
 
+}
+
+.githubHeader h1 {
+    transform: rotate(-90deg);
+    margin-top: 1px;
+    margin-right: -180px;
 }
 
 .github h1 {
@@ -145,36 +169,23 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-left: 35px;
+    transform: rotate(-90deg);
     /*transform: rotate(-90deg); */
 }
 
-.githubLink {
+.githubLink p {
     color: white;
     margin-left: 35px;
 }
 
-.githubLink:hover {
+.githubLink:hover p {
     color: #de672d
 }
 
-/*Projects */
-.projects {
-    margin-right: 200px;
+.githubLogo {
+    margin-top: 35px;
 }
 
-.projects h1 {
-    font-family: Potra;
-    src: url(https://www.dafont.com/search.php?q=potra);
-    font-size: x-large;
-    color: #9ce6f5;
-    margin-left: 35px;
-    /*transform: rotate(-90deg); */
-}
-
-.projects ul {
-    color: white;
-    margin-left: 12px;
-}
 
 /*---------------RIGHT SIDE---------------*/
 /* design skills */
@@ -256,6 +267,24 @@
 
 .softSkills ul {
     color: white;
+}
+
+/*Projects */
+.projects {
+    margin-right: 200px;
+}
+
+.projects h1 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra);
+    font-size: x-large;
+    color: #9ce6f5;
+    /*transform: rotate(-90deg); */
+}
+
+.projects ul {
+    color: white;
+    margin-left: 12px;
 }
 
 

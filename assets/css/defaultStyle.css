@@ -7,8 +7,15 @@ body {
 
 .vertical {
     border-left: 3px solid white;
-    height: 800px;
+    height: 1000px;
     margin-right: 25px;
+    float: left;
+}
+
+.verticalLeft {
+    border-left: 3px solid white;
+    height: 100px;
+    margin-right: 5px;
     float: left;
 }
 
