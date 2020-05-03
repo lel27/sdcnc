@@ -5,17 +5,17 @@ body {
     display: block;
 }
 
-.vertical { 
-    border-left: 3px solid white; 
-    height: 800px; 
+.vertical {
+    border-left: 3px solid white;
+    height: 800px;
     margin-right: 25px;
     float: left;
-} 
+}
 
 hr.horizontal {
     border: 1px solid white;
     border-radius: 3px;
-  }
+}
 
 footer {
     background: #eaeaea;
@@ -39,19 +39,47 @@ footer {
     src: url(https://www.dafont.com/search.php?q=potra)>
 }
 
-/* tool tip */
-.customToolTip>div {
-    display: flex;
-    justify-content: center;
+/* Tool Tip */
+
+#button {
+    display: inline-block;
+    background-color: #de672d;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
 }
 
-.customToolTip a.btn span i.fas.fa-chevron-circle-up {
-    color: orange;
-    font-size: 25px;
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: black;
 }
 
-.customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
-    color: #9ce6f5;
+#button:hover {
+    cursor: pointer;
+    background-color: #9ce6f5;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* ==== media queries ===== */
