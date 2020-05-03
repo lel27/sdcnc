@@ -81,6 +81,15 @@
     width: auto;
 }
 
+.phoneLink {
+    color: white;
+    margin-left: 35px;
+}
+
+.phoneLink:hover {
+    color: #de672d
+}
+
 /*email */
 .email {
     /*transform: rotate(-90deg); */
@@ -96,11 +105,13 @@
     /*transform: rotate(-90deg); */
 }
 
-.email p {
-    font-family: Arial, Helvetica, sans-serif;
+.emailLink {
     color: white;
     margin-left: 35px;
-    /*transform: rotate(-90deg); */
+}
+
+.emailLink:hover {
+    color: #de672d
 }
 
 .emailLogo {
@@ -128,6 +139,15 @@
     color: white;
     margin-left: 35px;
     /*transform: rotate(-90deg); */
+}
+
+.githubLink {
+    color: white;
+    margin-left: 35px;
+}
+
+.githubLink:hover {
+    color: #de672d
 }
 
 /*Projects */
@@ -226,5 +246,6 @@
 .softSkills ul {
     color: white;
 }
+
 
 /*footer */
