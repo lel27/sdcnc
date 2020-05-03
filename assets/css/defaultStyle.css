@@ -98,16 +98,38 @@ footer {
         margin-right: 260px;
     }
 
+    /*header */
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        opacity: 100%;
+    }
+
+    .avatarlogo {
+        display: none;
+    }
+
+    .header h1 {
+        font-family: Potra;
+        src: url(https://www.dafont.com/search.php?q=potra);
+        color: white;
+        margin-top: 15px;
+        font-size: 45pt;
+        text-align: center;
+    }
+
     /*leftSub */
     .contactHeader h1 {
         transform: rotate(360deg);
         margin-top: -30px;
+        text-align: center;
     }
 
     .phoneLink p {
         color: white;
         transform: rotate(360deg);
-        margin-left: 55px;
     }
 
     .phoneLink:hover p {
@@ -117,12 +139,12 @@ footer {
     .emailHeader h1 {
         transform: rotate(360deg);
         margin-top: -30px;
+        text-align: center;
     }
 
     .emailLink p {
         color: white;
         transform: rotate(360deg);
-        margin-left: 55px;
     }
 
     .emailLink:hover p {
@@ -132,12 +154,12 @@ footer {
     .githubHeader h1 {
         transform: rotate(360deg);
         margin-top: -30px;
+        text-align: center;
     }
 
     .githubLink p {
         color: white;
         transform: rotate(360deg);
-        margin-left: 55px;
     }
 
     .githubLink:hover p {
@@ -145,17 +167,37 @@ footer {
     }
 
     /*rightSub */
-    .logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    .skills h1 {
+        font-family: Potra;
+        src: url(https://www.dafont.com/search.php?q=potra);
+        font-size: x-large;
+        color: #9ce6f5;
+        transform: rotate(360deg); 
     }
 
-    .avatarlogo {
-        display: none;
+    .adobeSkills {
+        width: 300px;
+        height: auto;
+        margin-top: 120px;
     }
 
+    .education h1 {
+        font-family: Potra;
+        src: url(https://www.dafont.com/search.php?q=potra);
+        font-size: x-large;
+        color: #9ce6f5;
+        transform: rotate(360deg); 
+        margin-top: -50px;
+    }
+
+    .softSkills h1 {
+        font-family: Potra;
+        src: url(https://www.dafont.com/search.php?q=potra);
+        font-size: x-large;
+        color: #9ce6f5;
+        transform: rotate(360deg);
+        margin-top: -50px;
+    }
 }
 
 /*grid */
@@ -179,6 +221,13 @@ footer {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+    }
+}
 
 
 /* On small screens, set height to 'auto' for sidenav and grid */
