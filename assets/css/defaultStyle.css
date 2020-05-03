@@ -90,6 +90,7 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+
     .customNavBg li>a:hover {
         transform: scale(1)
     }
@@ -267,3 +268,9 @@ footer {
         height: auto;
         padding: 15px;
     }
+}
+
+@font-face {
+    font-family: potra;
+    src: url(https://www.dafont.com/search.php?q=potra);
+}
