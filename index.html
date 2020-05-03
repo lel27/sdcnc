@@ -35,11 +35,13 @@
             </div>
         </div>
     </section>
+    <!------avata
     <section>
         <div class="avatar">
             <img src="assets/images/avatarlogo.png">
         </div>
     </section>
+    -------->
     <br>
     <br>
     <br>
@@ -48,10 +50,15 @@
     <br>
     <section class="middleSec">
         <div class="row">
-            <div class="col-12 col-md-3 leftSub">
+            <div class="col-12 col-md-5 leftSub">
                 <div class="contact">
                     <h1>Contact</h1>
-                    <p>(909) 609-7754</p>
+                    <div class="number">
+                        <a href="tel:(909) 609-7754" data-toggle="tooltip" data-placement="btn" title=""
+                            data-original-title="Give a Call!">
+                            <p>(909) 609-7754</p>
+                        </a>
+                    </div>
                 </div>
                 <br>
                 <br>
@@ -65,17 +72,26 @@
                 <br>
                 <div class="github">
                     <h1>Github</h1>
-                    <p>github.com/lel27</p>
+                    <div class="number">
+                        <a href="https://github.com/lel27" data-toggle="tooltip" data-placement="btn" title=""
+                            data-original-title="Check Me Out!">
+                            <p>github.com/lel27</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-9 rightSub">
+            <div class="col-12 col-md-7 rightSub">
                 <div class="row subBox">
                     <div class="skills">
                         <h1>Design Skills</h1>
-                        <img src="assets/images/adobeSkills.png" class="adobeSkills">
                         <div class="subText">
-                            <p>Code: HTML , .CSS</p>
-                            <p>Typography</p>
+                            <img src="assets/images/adobeSkills.png" class="adobeSkills">
+                        </div>
+                        <div class="subText" class="codeSkills">
+                            <img src="assets/images/codeSkills.png">
+                        </div>
+                        <div class="subText" class="typeSkills">
+                            <img src="assets/images/typeSkills.png">
                         </div>
                     </div>
                 </div>
@@ -117,22 +133,37 @@
                         </ul>
                     </div>
                 </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="row subBox">
+                    <div class="projects">
+                        <h1>Projects</h1>
+                        <ul style="list-style-type:disc;">
+                            <li>Site Map</li>
+                            <li>Ui Style Guide</li>
+                            <li>Wireframes</li>
+                            <li>Hi Fi & Adobe Xd</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
 
     </section>
-
-
+<br>
+<br>
 
     <!----Tool Tip & Scroll Spy---->
     <div class="row customToolTip">
         <div class="col-12">
-            <a class="btn toTop" data-toggle="tooltip" data-placement="right" title="Scroll to Top" title
-                href="#topPage" data-original-title="Scroll to Top">
+            <a class="btn toTop" data-toggle="tooltip" data-placement="right" title="" href="#topPage"
+                data-original-title="Scroll to Top">
                 <span>
-                    <i class="fas fa-chevron-circle-up"></i>
-
+                    <i class="fas fa-chevron-circle-up" aria-hidden="true"></i>
                 </span>
             </a>
         </div>
@@ -152,21 +183,23 @@
 
     <script>
         $(document).ready(function () {
-                    $('[data-toggle="tooltip"]').tooltip();
+            // tool tip
+            $('[data-toggle="tooltip"]').tooltip();
 
-                    $("a.toTop").on('click', function (event) {
+            // smooth scroll for scroll spy
+            $("a.toTop").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
 
-                                $("a.toTop").on('click', function (event) {
-                                    if (this.hash !== "") {
-                                        event.preventDefault();
-                                        var hash = this.hash;
-                                        $('html, body').animate({
-                                            scrollTop: $(hash).offset().top
-                                        }, 800, function () {
-                                            window.location.hash = hash;
-                                        });
-                                    }
-                                });
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
     </script>
 </body>
 

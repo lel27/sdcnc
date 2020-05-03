@@ -139,6 +139,17 @@
     height: auto;
 }
 
+.codeSkills {
+    width: 300px;
+    height: auto;
+}
+
+.typeSkills {
+    width: 300px;
+    height: auto;
+}
+
+
 .subText {
 color: white;
 margin-top: 15px;
@@ -190,4 +201,16 @@ font-size: large;
     color: white;
 }
 
+/*Porjects */
+.projects h1 {
+    font-family: Potra;
+    src: url(https://www.dafont.com/search.php?q=potra);
+    font-size: x-large;
+    color: #9ce6f5;
+    /*transform: rotate(-90deg); */
+}
+
+.projects ul {
+    color: white;
+}
 /*footer */
