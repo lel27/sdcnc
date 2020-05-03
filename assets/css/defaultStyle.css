@@ -92,13 +92,97 @@ footer {
         transform: scale(1)
     }
 
-    .circleImage {
-        border-color: #34af95;
+    /*toolip */
+
+    #button {
+        margin-right: 260px;
+    }
+
+    /*leftSub */
+    .contactHeader h1 {
+        transform: rotate(360deg);
+        margin-top: -30px;
+    }
+
+    .phoneLink p {
+        color: white;
+        transform: rotate(360deg);
+        margin-left: 55px;
+    }
+
+    .phoneLink:hover p {
+        color: #de672d
+    }
+
+    .emailHeader h1 {
+        transform: rotate(360deg);
+        margin-top: -30px;
+    }
+
+    .emailLink p {
+        color: white;
+        transform: rotate(360deg);
+        margin-left: 55px;
+    }
+
+    .emailLink:hover p {
+        color: #de672d
+    }
+
+    .githubHeader h1 {
+        transform: rotate(360deg);
+        margin-top: -30px;
+    }
+
+    .githubLink p {
+        color: white;
+        transform: rotate(360deg);
+        margin-left: 55px;
+    }
+
+    .githubLink:hover p {
+        color: #de672d
+    }
+
+    /*rightSub */
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .avatarlogo {
+        display: none;
+    }
+
+}
+
+/*grid */
+@media only screen and (max-width: 768px) {
+    .rightSub {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+    }
+
+    .vertical {
+        height: 0px;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .leftSub {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+    }
+}
+
+
+
 /* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .sidenav {
         height: auto;
         padding: 15px;
