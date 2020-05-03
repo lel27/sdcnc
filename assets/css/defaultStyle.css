@@ -95,7 +95,7 @@ footer {
     /*toolip */
 
     #button {
-        margin-right: 260px;
+        margin-right: 175px;
     }
 
     /*header */
@@ -123,9 +123,9 @@ footer {
     /*contact */
     .contactHeader h1 {
         transform: rotate(360deg);
+        margin-left: 120px;
         margin-top: -30px;
-        text-align: center;
-    }
+    }    
 
     .phoneLink p {
         color: white;
@@ -220,6 +220,10 @@ footer {
         color: #9ce6f5;
         transform: rotate(360deg);
         margin-top: 0px;
+    }
+
+    .projectImg {
+       margin-left: -90px;
     }
 }
 
