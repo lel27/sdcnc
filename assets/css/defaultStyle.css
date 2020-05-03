@@ -4,6 +4,19 @@ body {
     background-color: black;
     display: block;
 }
+
+.vertical { 
+    border-left: 3px solid white; 
+    height: 800px; 
+    margin-right: 15px;
+    float: left;
+} 
+
+hr.horizontal {
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+
 footer {
     background: #eaeaea;
     display: flex;
@@ -43,7 +56,7 @@ footer {
 
 /* ==== media queries ===== */
 @media only screen and (max-width: 768px) {
-    .customNavBg li > a:hover {
+    .customNavBg li>a:hover {
         transform: scale(1)
     }
 
