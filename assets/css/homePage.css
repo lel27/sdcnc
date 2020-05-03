@@ -43,6 +43,8 @@
     color: #de672d;
     text-align: center;
     font-style: italic;
+    margin-right: 180px;
+    font-size: large;
 }
 
 /*--------------MIDDLE------------------*/
@@ -74,6 +76,11 @@
     /*transform: rotate(-90deg); */
 }
 
+.phoneLogo {
+    height: 15px;
+    width: auto;
+}
+
 /*email */
 .email {
     /*transform: rotate(-90deg); */
@@ -94,6 +101,11 @@
     color: white;
     margin-left: 35px;
     /*transform: rotate(-90deg); */
+}
+
+.emailLogo {
+    width: 15px;
+    height: auto;
 }
 
 /*github */
@@ -165,9 +177,9 @@
 
 
 .subText {
-color: white;
-margin-top: 15px;
-font-size: large;
+    color: white;
+    margin-top: 15px;
+    font-size: large;
 }
 
 /*education */
@@ -214,4 +226,5 @@ font-size: large;
 .softSkills ul {
     color: white;
 }
+
 /*footer */
