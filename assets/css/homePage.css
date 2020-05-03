@@ -278,7 +278,7 @@
 
 /*Projects */
 .projects {
-    margin-right: 200px;
+   
 }
 
 .projects h1 {
@@ -297,5 +297,8 @@
     font-size: 10pt;
 }
 
+.projectImg {
+  margin-top: 50px;
+}
 
 /*footer */
