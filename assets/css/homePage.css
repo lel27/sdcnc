@@ -28,7 +28,7 @@ div#nonProfitNav>ul.navbar-nav {
 }
 
 .nonProfitNav li.nav-item a:hover {
-    background-color: orangered;
+    background-color: #ed1e79;
     color: white;
     font-family: bimbey;
     src: url(https://www.dafont.com/bimbey.font);
@@ -36,19 +36,37 @@ div#nonProfitNav>ul.navbar-nav {
 
 .aboutDiv {
     height: 500px;
-    background-color: orange;
+    background-color: #00a99d;
     margin: 20px 0
 }
 
 .sitemapDiv {
     height: 500px;
-    background-color: teal;
+    background-color: #39b54a;
     margin: 20px 0
 }
 
 .styleGuideDiv {
     height: 500px;
-    background-color: purple;
+    background-color: #ed1e79;
+    margin: 20px 0
+}
+
+.userPersonaDiv {
+    height: 500px;
+    background-color: #00a99d;
+    margin: 20px 0
+}
+
+.wireFrameDiv {
+    height: 500px;
+    background-color: #39b54a;
+    margin: 20px 0
+}
+
+.protoTypeDiv {
+    height: 500px;
+    background-color: #ed1e79;
     margin: 20px 0
 }
 
@@ -60,29 +78,37 @@ div#nonProfitNav>ul.navbar-nav {
 /* end note section */
 .endNoteSection {
     text-align: center;
+    font-family: bimbey;
+    src: url(../fonts/BIMBEY.otf);
 }
 
 .endNoteSection p:first-of-type {
     text-decoration: underline;
-    color: #39b54a;
+    color: #00a99d;
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
 }
 
 .endNoteSection p span {
-    color: #39b54a;
+    color: #00a99d;
     font-weight: bold;
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
 }
 
 .endNoteSection .resumeBtn {
-    border: 1px solid #39b54a;
-    color: #39b54a;
+    border: 1px solid #00a99d;
+    color: #00a99d;
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
 }
 
 .endNoteSection .resumeBtn:hover {
-    background-color: orangered;
+    background-color: #f15a24;
     border: 1px solid transparent;
     color: white
 }
