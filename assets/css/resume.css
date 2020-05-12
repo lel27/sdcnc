@@ -33,7 +33,7 @@
 
 .header h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     color: white;
     text-align: center;
     margin-top: 15px;
@@ -67,7 +67,7 @@
 
 .contact h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     color: #9ce6f5;
     font-size: x-large;
     margin-left: 35px;
@@ -119,7 +119,7 @@
 
 .email h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     color: #9ce6f5;
     font-size: x-large;
     margin-left: 35px;
@@ -158,7 +158,7 @@
 
 .github h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     color: #9ce6f5;
     font-size: x-large;
     margin-left: 35px;
@@ -197,7 +197,7 @@
 
 .skills h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
     transform: rotate(-90deg);
@@ -235,7 +235,7 @@
 
 .education h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
     transform: rotate(-90deg);
@@ -275,7 +275,7 @@
 
 .softSkills h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
     transform: rotate(-90deg);
@@ -293,7 +293,7 @@
 
 .projects h1 {
     font-family: Potra;
-    src: url(../fonts/Potra.ttf);
+    src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
     transform: rotate(-90deg);
