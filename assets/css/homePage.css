@@ -8,10 +8,12 @@
     margin-bottom: 50px
 }
 
+
 .logo {
     width: 15%;
-    height: auto
+    height: auto;
 }
+
 
 div#nonProfitNav>ul.navbar-nav {
     margin: 0 auto;
@@ -116,6 +118,7 @@ div#nonProfitNav>ul.navbar-nav {
     font-family: univers;
     src: url(../fonts/UniversLTStd-Light.otf);
 }
+
 .endNoteSection p {
     font-weight: bold;
     font-family: univers;
