@@ -41,13 +41,20 @@ div#nonProfitNav>ul.navbar-nav {
     src: url(../fonts/UniversLTStd-Light.otf);
 }
 
+
+
 .aboutDiv {
     height: auto;
     text-align: center;
-    background-color: #00a99d;
+    background-color: #f15a24;
     margin: 20px 0;
     color: white;
     padding: 10px;
+}
+
+.images {
+    height: 400px;
+    width:auto;
 }
 
 .sitemapDiv {
@@ -56,6 +63,14 @@ div#nonProfitNav>ul.navbar-nav {
     margin: 20px 0;
     color: white;
     padding: 10px;
+}
+
+.siteMap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
 }
 
 .styleGuideDiv {
@@ -72,6 +87,14 @@ div#nonProfitNav>ul.navbar-nav {
     margin: 20px 0;
     color: white;
     padding: 10px;
+}
+
+.persona {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
 }
 
 .wireFrameDiv {
