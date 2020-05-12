@@ -23,7 +23,7 @@ div#nonProfitNav>ul.navbar-nav {
     font-weight: bold;
     color: #39b54a;
     font-family: bimbey;
-    src: url(https://www.dafont.com/bimbey.font);
+    src: url(../fonts/BIMBEY.otf);
     font-size: 20px;
 }
 
@@ -31,43 +31,61 @@ div#nonProfitNav>ul.navbar-nav {
     background-color: #ed1e79;
     color: white;
     font-family: bimbey;
-    src: url(https://www.dafont.com/bimbey.font);
+    src: url(../fonts/BIMBEY.otf);
+}
+
+.body {
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
 }
 
 .aboutDiv {
-    height: 500px;
+    height: auto;
+    text-align: center;
     background-color: #00a99d;
-    margin: 20px 0
+    margin: 20px 0;
+    color: white;
+    padding: 10px;
 }
 
 .sitemapDiv {
     height: 500px;
     background-color: #39b54a;
-    margin: 20px 0
+    margin: 20px 0;
+    color: white;
+    padding: 10px;
 }
 
 .styleGuideDiv {
     height: 500px;
     background-color: #ed1e79;
-    margin: 20px 0
+    margin: 20px 0;
+    color: white;
+    padding: 10px;
 }
 
 .userPersonaDiv {
     height: 500px;
     background-color: #00a99d;
-    margin: 20px 0
+    margin: 20px 0;
+    color: white;
+    padding: 10px;
 }
 
 .wireFrameDiv {
     height: 500px;
     background-color: #39b54a;
-    margin: 20px 0
+    margin: 20px 0;
+    color: white;
+    padding: 10px;
 }
 
 .protoTypeDiv {
     height: 500px;
     background-color: #ed1e79;
-    margin: 20px 0
+    margin: 20px 0;
+    color: white;
+    padding: 10px;
 }
 
 .resumeBtnContainer {
@@ -78,12 +96,15 @@ div#nonProfitNav>ul.navbar-nav {
 /* end note section */
 .endNoteSection {
     text-align: center;
+}
+
+.endNoteSection h3 {
     font-family: bimbey;
     src: url(../fonts/BIMBEY.otf);
+    letter-spacing: 3px;
 }
 
 .endNoteSection p:first-of-type {
-    text-decoration: underline;
     color: #00a99d;
     font-family: univers;
     src: url(../fonts/UniversLTStd-Light.otf);
@@ -91,6 +112,11 @@ div#nonProfitNav>ul.navbar-nav {
 
 .endNoteSection p span {
     color: #00a99d;
+    font-weight: bold;
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
+}
+.endNoteSection p {
     font-weight: bold;
     font-family: univers;
     src: url(../fonts/UniversLTStd-Light.otf);
