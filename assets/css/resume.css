@@ -314,3 +314,27 @@
 .projectImg {
     margin-top: 50px;
 }
+
+.projectsBtnContainer {
+    display: flex;
+    justify-content: center;
+    margin-right: -1000px;
+    margin-bottom: 10px;
+}
+
+.projectsBtn {
+    border: 1px solid #9ce6f5;
+    color: #9ce6f5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
+}
+
+.projectsBtn:hover {
+    background-color: #f15a24;
+    border: 1px solid transparent;
+    color: white
+}
