@@ -12,6 +12,7 @@
 .logo {
     width: 15%;
     height: auto;
+    margin-right: 75px;
 }
 
 
@@ -179,7 +180,6 @@ div#nonProfitNav>ul.navbar-nav {
     background-color: #f15a24;
     border: 1px solid transparent;
     color: white
-}
 
 
 

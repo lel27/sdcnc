@@ -22,7 +22,9 @@
 <body>
     <div class="container-fluid nonProfitContainer">
         <div class="logoContainer">
-            <img src="assets/images/SDCNC Logo.png" class="logo" width="400" height="auto">
+            <a href="index.html" class="logo">
+                <img src="assets/images/SDCNC Logo.png" width="200" height="auto">
+            </a>
         </div>
         <!-- navigation  -->
         <nav class="navbar navbar-expand-md nonProfitNav">
@@ -104,14 +106,16 @@
 
             <section id="siteMapSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
                 <div class="sitemapDiv">
-                    <p>Sitemap: Sitemaps are a way to show what page will hold what information and the order it will be displayed.</p>
+                    <p>Sitemap: Sitemaps are a way to show what page will hold what information and the order it will be
+                        displayed.</p>
                     <img src="assets/images/sitemap.jpg" class="siteMap">
                 </div>
             </section>
 
             <section id="styleGuideSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
                 <div class="styleGuideDiv">
-                    <p>Style Guide: This helps give the developers a consistent theme to work with when it comes to fonts, color schemes, and even buttons.</p>
+                    <p>Style Guide: This helps give the developers a consistent theme to work with when it comes to
+                        fonts, color schemes, and even buttons.</p>
                     <img src="assets/images/colorpallete.jpg" class="images">
                     <img src="assets/images/buttons.jpg" class="images">
                     <img src="assets/images/input.jpg" class="images">
@@ -121,8 +125,10 @@
 
             <section id="userPersonaSection" data-spy="scroll" data-offset="0" data-target="userPersonaSection">
                 <div class="userPersonaDiv">
-                    <p>User Persona: Personas are characters created to help with research when it comes to peoples needs.</p>
-                    <p>They help represent the different needs that users may be looking for, as well as user behaviors and goals.</p>
+                    <p>User Persona: Personas are characters created to help with research when it comes to peoples
+                        needs.</p>
+                    <p>They help represent the different needs that users may be looking for, as well as user behaviors
+                        and goals.</p>
                     <img src="assets/images/persona.jpg" class="persona">
                 </div>
             </section>
@@ -130,7 +136,8 @@
             <section id="wireFrameSection" data-spy="scroll" data-offset="0" data-target="wireFrameSection">
                 <div class="wireFrameDiv">
                     <p>Wireframe: Shown are the desktop (left) and mobile (right)</p>
-                    <p>Wireframes are to help show the layout of the content and functionality of the design that is done early on in the development process.</p>
+                    <p>Wireframes are to help show the layout of the content and functionality of the design that is
+                        done early on in the development process.</p>
                     <img src="assets/images/wireframe1.jpg" class="images">
                     <img src="assets/images/wireframe2.jpg" class="images">
                     <img src="assets/images/wireframe3.jpg" class="images">
@@ -139,7 +146,8 @@
 
             <section id="protoTypeSection" data-spy="scroll" data-offset="0" data-target="protoTypeSection">
                 <div class="protoTypeDiv">
-                    <p>Hi-Fi Prototype: This offers an interactive idea of what the final design could look like in terms of its functionality and details.</p>
+                    <p>Hi-Fi Prototype: This offers an interactive idea of what the final design could look like in
+                        terms of its functionality and details.</p>
                     <img src="assets/images/gif.gif" class="gif">
                 </div>
             </section>
@@ -157,6 +165,9 @@
 
     </div>
 
+    <!----Tool Tip & Scroll Spy---->
+    <a href="#" data-toggle="tooltip" title="Scroll to Top" id="button"></a>
+
 
 
     <!-- boostrap script -->
@@ -173,6 +184,31 @@
         $('.carousel').carousel({
             interval: 2000
         })
+    </script>
+
+    <!--------TOOLTIP------->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0
+            }, '300');
+        });
     </script>
 
     <!-- custom script for smooth scroll -->
@@ -193,7 +229,7 @@
             });
         });
     </script>
-    
+
 
 
 

@@ -29,10 +29,12 @@
     grid-area: 1 / 1 / 3 / 6;
     padding: 10px;
     margin-right: 200px;
+    font-family: potra;
+    src: url(https://www.dafont.com/potra.font);
 }
 
 .header h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     color: white;
     text-align: center;
@@ -66,7 +68,7 @@
 }
 
 .contact h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     color: #9ce6f5;
     font-size: x-large;
@@ -85,6 +87,8 @@
     transform: rotate(-90deg);
     margin-top: 110px;
     margin-left: 120px;
+    font-family: potra;
+    src: url(https://www.dafont.com/potra.font);
 }
 
 .phoneLogo {
@@ -118,7 +122,7 @@
 }
 
 .email h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     color: #9ce6f5;
     font-size: x-large;
@@ -157,7 +161,7 @@
 }
 
 .github h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     color: #9ce6f5;
     font-size: x-large;
@@ -196,7 +200,7 @@
 }
 
 .skills h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
@@ -234,7 +238,7 @@
 }
 
 .education h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
@@ -274,7 +278,7 @@
 }
 
 .softSkills h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
@@ -292,7 +296,7 @@
 .projects {}
 
 .projects h1 {
-    font-family: Potra;
+    font-family: potra;
     src: url(https://www.dafont.com/potra.font);
     font-size: x-large;
     color: #9ce6f5;
@@ -310,5 +314,3 @@
 .projectImg {
     margin-top: 50px;
 }
-
-/*footer */
