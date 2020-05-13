@@ -72,8 +72,8 @@ div#nonProfitNav>ul.navbar-nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-    height: 400px;
+    width: auto;
+    height: 500px;
 }
 
 .sitemapDiv {
@@ -121,10 +121,10 @@ div#nonProfitNav>ul.navbar-nav {
 }
 
 .protoTypeDiv {
-    height: 500px;
+    height: auto;
     margin: 20px 0;
-    background-color: #f15a24;
-    color: white;
+    background-color: ;
+    color: black;
     padding: 10px;
     text-align: center;
 }
