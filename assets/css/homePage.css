@@ -78,14 +78,6 @@ div#nonProfitNav>ul.navbar-nav {
     text-align: center;
 }
 
-.siteMap {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 400px;
-}
-
 .styleGuideDiv {
     height: 500px;
     background-color: #ed1e79;
