@@ -128,7 +128,10 @@ div#nonProfitNav>ul.navbar-nav {
 }
 
 .gifBtnContainer {
+    display: flex;
     justify-content: center;
+    margin: auto;
+    padding: 10px;
 }
 
 .gifBtn {
