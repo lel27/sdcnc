@@ -69,9 +69,7 @@ div#nonProfitNav>ul.navbar-nav {
 }
 
 .gif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: auto;
     height: 500px;
 }
@@ -122,17 +120,34 @@ div#nonProfitNav>ul.navbar-nav {
 
 .protoTypeDiv {
     height: auto;
-    margin: 20px 0;
+    margin: 20px;
     background-color: ;
     color: #00a99d;
     padding: 10px;
     text-align: center;
 }
 
-.resumeBtnContainer {
-    display: flex;
+.gifBtnContainer {
     justify-content: center;
 }
+
+.gifBtn {
+    border: 1px solid #00a99d;
+    color: #00a99d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: univers;
+    src: url(../fonts/UniversLTStd-Light.otf);
+}
+
+.gifBtn:hover {
+    background-color: #f15a24;
+    border: 1px solid transparent;
+    color: white
+}
+
 
 /* end note section */
 .endNoteSection {
@@ -230,7 +245,6 @@ div#nonProfitNav>ul.navbar-nav {
     .logo {
         width: 50%;
         height: auto;
-        margin-left: 10px;
     }
 
     .nonProfitNav {
