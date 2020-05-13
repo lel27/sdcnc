@@ -62,6 +62,10 @@ div#nonProfitNav>ul.navbar-nav {
     padding: 10px;
 }
 
+.text p {
+    color: #f15a24;
+}
+
 .images {
     height: 400px;
     width: auto;
@@ -248,6 +252,7 @@ div#nonProfitNav>ul.navbar-nav {
     .logo {
         width: 50%;
         height: auto;
+        margin-left:-1px;
     }
 
     .nonProfitNav {
@@ -262,10 +267,12 @@ div#nonProfitNav>ul.navbar-nav {
 
     .carousel {
         display: none;
+        height: 300px;
+        width: auto;
     }
 
     .images {
-        height: 150px;
+        height: 250px;
         width: auto;
         padding: 5px;
         display: block;
@@ -289,7 +296,7 @@ div#nonProfitNav>ul.navbar-nav {
 
     .aboutDiv {
         height: auto;
-        text-align: left;
+        text-align: center;
     }
 
     .sitemapDiv {
@@ -315,5 +322,9 @@ div#nonProfitNav>ul.navbar-nav {
     .protoTypeDiv {
         height: auto;
         text-align: left;
+    }
+    
+    .gif {
+        padding: 10px;
     }
 }
