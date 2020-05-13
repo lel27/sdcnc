@@ -52,6 +52,11 @@ div#nonProfitNav>ul.navbar-nav {
     width: auto;
 }
 
+.carousel-caption {
+    color: white;
+    display: block;
+}
+
 
 .aboutDiv {
     height: auto;
@@ -269,6 +274,10 @@ div#nonProfitNav>ul.navbar-nav {
         display:;
         height: 300px;
         width: auto;
+    }
+
+    .carousel-caption {
+        display: none;
     }
 
     .images {
