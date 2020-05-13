@@ -74,6 +74,7 @@ div#nonProfitNav>ul.navbar-nav {
     margin: 20px 0;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .siteMap {
@@ -90,6 +91,7 @@ div#nonProfitNav>ul.navbar-nav {
     margin: 20px 0;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .userPersonaDiv {
@@ -98,6 +100,7 @@ div#nonProfitNav>ul.navbar-nav {
     margin: 20px 0;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .persona {
@@ -114,14 +117,16 @@ div#nonProfitNav>ul.navbar-nav {
     margin: 20px 0;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .protoTypeDiv {
     height: 500px;
-    background-color: #ed1e79;
     margin: 20px 0;
+    background-color: #f15a24;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .resumeBtnContainer {
