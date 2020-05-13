@@ -44,7 +44,7 @@ div#nonProfitNav>ul.navbar-nav {
 
 .images {
     height: 400px;
-    width:auto;
+    width: auto;
 }
 
 .aboutDiv {
@@ -58,7 +58,7 @@ div#nonProfitNav>ul.navbar-nav {
 
 .images {
     height: 400px;
-    width:auto;
+    width: auto;
 }
 
 .gif {
@@ -172,15 +172,15 @@ div#nonProfitNav>ul.navbar-nav {
     background-color: #f15a24;
     border: 1px solid transparent;
     color: white
-
-
-
+}
 
 /* === Media Queries ==== */
+
 @media only screen and (max-width: 768px) {
     .logo {
         width: 50%;
-        height: auto
+        height: auto;
+        margin-left: 10px;
     }
 
     .nonProfitNav {
@@ -192,4 +192,55 @@ div#nonProfitNav>ul.navbar-nav {
     .nonProfitNav li.nav-item {
         text-align: center;
     }
+
+    .carousel {
+        display: none;
+    }
+
+    .images {
+        height: 150px;
+        width: auto;
+        padding: 5px;
+    }
+
+    .persona {
+        height: 150px;
+        width: auto;
+    }
+
+    .gif {
+        height: 300px;
+        width: auto;
+    }
+
+    .aboutDiv {
+        height: auto;
+        text-align: left;
+    }
+
+    .sitemapDiv {
+        height: auto;
+        text-align: left;
+    }
+
+    .styleGuideDiv {
+        height: auto;
+        text-align: left;
+    }
+
+    .wireFrameDiv {
+        height: auto;
+        text-align: left;
+    }
+
+    .userPersonaDiv {
+        height: auto;
+        text-align: left;
+    }
+
+    .protoTypeDiv {
+        height: auto;
+        text-align: left;
+    }
+
 }
