@@ -56,9 +56,9 @@ div#nonProfitNav>ul.navbar-nav {
 .aboutDiv {
     height: auto;
     text-align: center;
-    background-color: #f15a24;
+    background-color: ;
     margin: 20px 0;
-    color: white;
+    color: #00a99d;
     padding: 10px;
 }
 
@@ -124,7 +124,7 @@ div#nonProfitNav>ul.navbar-nav {
     height: auto;
     margin: 20px 0;
     background-color: ;
-    color: black;
+    color: #00a99d;
     padding: 10px;
     text-align: center;
 }
